@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link To CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Link To JS -->
+        <script src="index.js" defer></script>
+        <!-- Link To Scroll Reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- Icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>SwiftDrive | Car Rental</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav>
+            <a href="index.html" class="brand">
+                <h1>Swift<b class="accent">Drive</b></h1>
+            </a>
+            <div class="menu">
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                </div>
+                <a href="index.html">HOME</a>
+                <a href="collection.html">CARS</a>
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#testimonials">REVIEWS</a>
+            </div>
+            <button class="btn-2" onclick="window.location.href='contact.html'"> 
+                Get Started
+            </button>
+            <div class="btn">
+                <i class="fas fa-bars menu-btn"></i>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Hero Section-->
+        <div class="hero-page">
+            <div class="hero-headlines">
+                <h1>
+                    Easy And Fast Way To <b class="accent">Rent</b> A car with SwiftRide.
+                </h1>
+                <p>
+                    we offer a wide range of rental cars tailored to meet your needs, 
+                    whether you're planning a weekend getaway or a business trip.
+                </p>
+                <button 
+                    class="btn-2 btn-hero" 
+                    onclick="window.location.href='contact.html'"
+                    >
+                        Get Started
+                </button>
+                <div class="download-buttons">
+                    <img src="img/app_store_img.png" alt="img">
+                    <img src="img/google_play_img.png" alt="img">
+                </div>
+            </div>
+            <img src="img/hero_img.png" class="hero-page-img" alt="img">
+        </div>
+        <!-- Hero Section End-->
+        <!-- About Section-->
+        <section class="about" id="about">
+            <div class="about-container">
+                <h1>Your Premier Choice for Effortless Car Rentals</h1>
+                <p class="about-subline">
+                    Experience the ultimate convenience with SwiftDrive, where renting a 
+                    car is as easy as a few clicks.
+                </p>
+
+                <div class="about-info">
+                    <div class="about-info-item">
+                        <hr class="about-hr" />
+                        <img src="img/about-info-item-1.png" alt="img">
+                        <h5>Efficiency</h5>
+                        <p>
+                            SwiftDrive stands out for its streamlined rental process, ensuring 
+                            customers can quickly and easily book their desired vehicles. 
+                        </p>
+                    </div>
+                    <div class="about-info-item">
+                        <hr class="about-hr" />
+                        <img src="img/about-info-item-2.png" alt="img">
+                        <h5>Diverse Fleet</h5>
+                        <p>
+                            SwiftDrive boasts a diverse fleet of well-maintained vehicles,
+                            catering to the varied meeds and preference of its customers.
+                        </p>
+                    </div>
+                    <div class="about-info-item">
+                        <hr class="about-hr" />
+                        <img src="img/about-info-item-3.png" alt="img">
+                        <h5>Exceptional Service</h5>
+                        <p>
+                            Beyond just providing vehicles, SwiftDrive is committed to
+                            delivering exceptional customer service at every step of the way.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End-->
+        <!-- Collection Section-->
+        <section class="collection" id="collection">
+            <h1>Our Car Collections</h1>
+            <div class="collection-container">
+                <!-- Car 1-->
+                <div class="collection-car-item">
+                    <img src="img/cars/car-1.png" alt="img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$80.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>California</h6>
+                            </div>
+                        </div>
+                        <h2>Mercedes-AMG GT R</h2>
+                        <button class="btn-2 btn-car">
+                            <p>Book Now</p>
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Car #2-->
+                <div class="collection-car-item">
+                    <img src="img/cars/car-2.png" alt="img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$60.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Los Angeles</h6>
+                            </div>
+                        </div>
+                        <h2>BMW 428i - F32</h2>
+                        <button class="btn-2 btn-car">
+                            <p>Book Now</p>
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Car #3-->
+                <div class="collection-car-item">
+                    <img src="img/cars/car-3.png" alt="img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$40.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>California</h6>
+                            </div>
+                        </div>
+                        <h2>Toyota 86 - Coupe</h2>
+                        <button class="btn-2 btn-car">
+                            <p>Book Now</p>
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                    </div>
+                
+                </div>
+                <!-- Car #4-->
+                <div class="collection-car-item">
+                    <img src="img/cars/car-4.png" alt="img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$40.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>New York</h6>
+                            </div>
+                        </div>
+                        <h2>2018 Lexus LS</h2>
+                        <button class="btn-2 btn-car">
+                            <p>Book Now</p>
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                    </div>
+                
+                </div>
+                <!-- Car #5-->
+                <div class="collection-car-item">
+                    <img src="img/cars/car-5.png" alt="img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$100.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>Las Vegas</h6>
+                            </div>
+                        </div>
+                        <h2>Rolls Royce Dawn</h2>
+                        <button class="btn-2 btn-car">
+                            <p>Book Now</p>
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                    </div>
+                
+                </div>
+                <!-- Car #6-->
+                <div class="collection-car-item">
+                    <img src="img/cars/car-6.png" alt="img">
+                    <div class="car-info-container">
+                        <div class="car-info">
+                            <div class="car-price">
+                                <h5>$100.00</h5>
+                                <h6>/Day</h6>
+                            </div>
+                            <div class="car-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h6>New Jersey</h6>
+                            </div>
+                        </div>
+                        <h2>Lamborghini Venemo</h2>
+                        <button class="btn-2 btn-car">
+                            <p>Book Now</p>
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                    </div>
+                
+                </div>
+            </div>
+            <button class="btn-car btn-herocar">
+                <p> See All Cars</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+        </section>
+        <!--Collection Section End-->
+
+        <!-- Review Section-->
+        <section class="review" id="review">
+            <h1>Hear what our clients say ✨</h1>
+            <div class="review-container">
+                <!--Review #1-->
+                <div class="review-item">
+                    <p>
+                        Renting with <b class="accent"> SwiftDrive</b> was an absolute breeze!
+                        From booking online to picking up the car, everything was smooth and
+                        efficient.
+                    </p>
+                    <div class="review-people">
+                        <img src="img/testimonials-1.png" alt="image">
+                        <h5>Sarah Y.</h5>
+                    </div>
+                </div>
+                <!--Review #2-->
+                <div class="review-item">
+                    <p>
+                        I can't recommend <b class="accent"> SwiftDrive</b> enough! Their 
+                        diverse fleet allowed me to choose the perfect car for my weekend
+                        getaway.
+                    </p>
+                    <div class="review-people">
+                        <img src="img/testimonials-2.png" alt="image">
+                        <h5>Michael W.</h5>
+                    </div>
+                </div>
+                <!--Review #3-->
+                <div class="review-item">
+                    <p>
+                        <b class="accent"> SwiftDrive</b> exceeded all my expectations! their
+                        flexibility with drop-off and pickup made my travel experience
+                        stress-free.
+                    </p>
+                    <div class="review-people">
+                        <img src="img/testimonials-3.png" alt="image">
+                        <h5>William Z.</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Review Section End-->
+        
+        <!-- Footer Section-->
+        <footer class="index-footer">
+            <div class="callout">
+                <h2>Let's drive with SwiftDrive Today!</h2>
+                <p class="callout-description">
+                    Need assistance or ready to reserve your wheels? Contact us now 
+                    for prompt service and effortless booking!
+                </p>
+                <div class="callout-buttons">
+                    <button class="btn-2 btn-callout" onclick="window.location.href=collection.html">
+                    <p>Check Our Cars</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                    <button class="btn-2 btn-callout btn-callout-black" onclick="window.location.href=contact.html">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <a href="/" class="footer-brand">Swift<b class="accent">Drive</b></a>
+                <div class="socials">
+                    <a href="/" class="social-item">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="/" class="social-item">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social-item">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="/" class="social-item">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!--Footer Section End-->
+    </body>
+
+</html>

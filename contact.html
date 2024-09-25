@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link To CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Link To JS -->
+        <script src="index.js" defer></script>
+        <!-- Link To Scroll Reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>SwiftDrive | Car Rental</title>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav>
+            <a href="index.html" class="brand">
+                <h1>Swift<b class="accent">Drive</b></h1>
+            </a>
+            <div class="menu">
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                </div>
+                <a href="index.html">HOME</a>
+                <a href="collection.html">CARS</a>
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#testimonials">REVIEWS</a>
+            </div>
+            <button class="btn-2" onclick="window.location.href='contact.html'">
+                Get Started
+            </button>
+            <div class="btn">
+                <i class="fas fa-bars menu-btn"></i>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h1>Get in Touch for Your Dream Ride!</h1>
+            <p>
+                Have questions or need assistance? Our team is here to help you find the
+                perfect car for your adventure.
+            </p>
+            <form action="https://api.web3forms.com/submit" method="POST">
+            
+                <input type="hidden" name="access_key" value="dee022aa-c0fb-4dbf-a7fa-bfc52c3a686a">
+                <div class="car-select">
+                    <div class="car-select-item">
+                        <label for="location">Location</label>
+                        <select name="location" class="car-select-input" id="location">
+                            <option value="California">California</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="New Jersey">New Jersey</option>
+                            <option value="New York">New York</option>
+                        </select>
+                    </div>
+                    <div class="car-select-item">
+                        <label for="car-type">Car to rent</label>
+                        <select name="car-type" class="car-select-input" id="car-type">
+                            <option value="Mercedes-AMG GT R">Mercedes-AMG GT R</option>
+                            <option value="Lamborghini Venemo">Lamborghini Venemo</option>
+                            <option value="Rolls Royce Dawn">Rolls Royce Dawn</option>
+                            <option value="Toyota 86 - Coupe">Toyota 86 - Coupe</option>
+                        </select>
+                    </div>
+                    <div class="car-select-item">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" class="car-select-input">
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <input type="text" name="name" placeholder="Name" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <input type="phone" name="phone" placeholder="Phone" required />
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                    <button type="submit" class="btn-2">Submit</button>
+                </div>
+            
+            </form>
+        </section>
+
+        <!-- Footer Section-->
+        <footer class="contact-footer">
+            <div class="callout">
+                <h2>Let's drive with SwiftDrive Today!</h2>
+                <p class="callout-description">
+                    Need assistance or ready to reserve your wheels? Contact us now
+                    for prompt service and effortless booking!
+                </p>
+                <div class="callout-buttons">
+                    <button class="btn-2 btn-callout" onclick="window.location.href=collection.html">
+                        <p>Check Our Cars</p>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                    <button class="btn-2 btn-callout btn-callout-black" onclick="window.location.href=contact.html">
+                        <p>Book Now</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <a href="/" class="footer-brand">Swift<b class="accent">Drive</b></a>
+                <div class="socials">
+                    <a href="/" class="social-item">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="/" class="social-item">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social-item">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="/" class="social-item">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!--Footer Section End-->
+    </body>
+
+</html>
